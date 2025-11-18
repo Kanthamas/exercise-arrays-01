@@ -1,5 +1,3 @@
-"use strict";
-
 const board = [
 	["A", "B", "C"],
 	["D", "E", "F"],

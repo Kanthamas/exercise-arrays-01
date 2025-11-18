@@ -4,10 +4,12 @@ const board = [
 	["G", "H", "I"],
 ];
 
-let x = 0;
-let y = 0;
 const moves = [];
-moves.push(board[x][y]); // Start at A
+
+// Start at A (0,0) -> [row][col]
+let row = 0;
+let col = 0;
+moves.push(board[row][col]); // A
 
 // Define movement functions
 function moveRight() {}

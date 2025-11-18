@@ -1,19 +1,19 @@
-"use strict";
 const board = [
 	["A", "B", "C"],
 	["D", "E", "F"],
 	["G", "H", "I"],
 ];
 
-let x = 0;
-let y = 0; // Start at A (0,0) -> [row][col]
+// Start at A (0,0) -> [row][col]
+let row = 0;
+let col = 0; 
 
 const moves = [];
-moves.push(board[x][y]); // A
+moves.push(board[row][col]); // A
 
 // Move Right to B
-y++;
-moves.push(board[x][y]); // B
+col++;
+moves.push(board[row][col]); // B
 
 // Move Right to C
 

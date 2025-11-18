@@ -4,11 +4,11 @@ const board = [
 	["G", "H", "I"],
 ];
 
+const moves = [];
+
 // Start at A (0,0) -> [row][col]
 let row = 0;
 let col = 0; 
-
-const moves = [];
 moves.push(board[row][col]); // A
 
 // Move Right to B
